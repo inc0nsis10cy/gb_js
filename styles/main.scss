@@ -114,6 +114,7 @@ body{
             &:hover{
                 transform: scale(1.05);
             }
+
             &:hover{                    
                 .navMenuCategory__items{
                     display: flex;
@@ -141,11 +142,9 @@ body{
                     &:hover{
                         transform: scale(1.01);
                         color: $mainColorLight;
-                        
                         // background:  opacify($color: $mainColorLight, $amount: 0.8);
                     }
                         
-
                     & > a{                            
                         text-decoration: none;
                         color: inherit;
@@ -194,9 +193,8 @@ body{
             }
         }
 
-        .itemImg{ //то же самое с медиазапросами - не срабатывают значения по умолчанию для дисплея менее 768px
+        .itemImg{ 
             max-height: 500px;
-
             width: 100%;
             object-fit: cover;
             display: block;
@@ -251,7 +249,6 @@ body{
     padding-top: 15px;
     padding-bottom: 15px;
     box-sizing: border-box; 
-
 }
 .footer{
     background-color: $mainColorDark;
@@ -283,8 +280,7 @@ body{
                 transform: scale(1.12);
                 transition: all 0.3s ease-in-out;
             }
-        }
-        
+        } 
     }
 }
 
